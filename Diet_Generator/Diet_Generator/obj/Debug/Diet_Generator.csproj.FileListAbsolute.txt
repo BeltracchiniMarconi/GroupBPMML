@@ -1,0 +1,10 @@
+C:\Users\manci\source\repos\Diet_Generator\Diet_Generator\bin\Debug\Diet_Generator.exe.config
+C:\Users\manci\source\repos\Diet_Generator\Diet_Generator\bin\Debug\Diet_Generator.exe
+C:\Users\manci\source\repos\Diet_Generator\Diet_Generator\bin\Debug\Diet_Generator.pdb
+C:\Users\manci\source\repos\Diet_Generator\Diet_Generator\obj\Debug\Diet_Generator.csprojAssemblyReference.cache
+C:\Users\manci\source\repos\Diet_Generator\Diet_Generator\obj\Debug\Diet_Generator.Form1.resources
+C:\Users\manci\source\repos\Diet_Generator\Diet_Generator\obj\Debug\Diet_Generator.Properties.Resources.resources
+C:\Users\manci\source\repos\Diet_Generator\Diet_Generator\obj\Debug\Diet_Generator.csproj.GenerateResource.cache
+C:\Users\manci\source\repos\Diet_Generator\Diet_Generator\obj\Debug\Diet_Generator.csproj.CoreCompileInputs.cache
+C:\Users\manci\source\repos\Diet_Generator\Diet_Generator\obj\Debug\Diet_Generator.exe
+C:\Users\manci\source\repos\Diet_Generator\Diet_Generator\obj\Debug\Diet_Generator.pdb

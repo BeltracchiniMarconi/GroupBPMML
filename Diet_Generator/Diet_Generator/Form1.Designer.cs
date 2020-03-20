@@ -58,6 +58,7 @@
             this.attivitàFisicabox.Name = "attivitàFisicabox";
             this.attivitàFisicabox.Size = new System.Drawing.Size(121, 21);
             this.attivitàFisicabox.TabIndex = 0;
+            this.attivitàFisicabox.SelectedIndexChanged += new System.EventHandler(this.attivitàFisicabox_SelectedIndexChanged);
             // 
             // sportBox
             // 
