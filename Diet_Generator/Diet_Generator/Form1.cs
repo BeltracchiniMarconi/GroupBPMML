@@ -17,15 +17,22 @@ namespace Diet_Generator
         {
             InitializeComponent();
             sportBox.Hide();
-            label6.Hide();
-            kcalS.Hide();
-            button1.Hide();
-            button2.Hide();
-            button3.Hide();
+            panel1.Hide();
+            panel2.Hide();
+            
+            panel5.Top = button4.Top;
+            panel5.Height = button4.Height;
         }
 
         private void salva_Click(object sender, EventArgs e)
+
         {
+            sportBox.Hide();
+            panel1.Show();
+            panel2.Show();
+            panel3.Hide();
+            
+
             #region combos
             try
             {
@@ -334,6 +341,54 @@ namespace Diet_Generator
             spiegazioneBox.Text = "Il bulk è un tipo di dieta da seguire per aumentare peso e massa muscolare \n essa si basa sull'introdurre piu kcal di quelle che si bruciano";
             kcalS.Show();
             kcaltoeat.Text = Convert.ToString(user.Kcal + 500) + " kcal";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            sportBox.Hide();
+            panel1.Hide();
+            panel3.Show();
+            panel2.Hide();
+         
+            panel5.Top = button4.Top;
+            panel5.Height = button4.Height;
+            
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            sportBox.Hide();
+            panel1.Show();
+           
+            panel2.Show();
+            panel3.Hide();
+            panel5.Top = button5.Top;
+            panel5.Height = button5.Height;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
